@@ -20,7 +20,7 @@
   "homepage": "https://github.com/w3ctech-editorial-department/cz-customizable",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/w3ctech-editorial-department/cz-customizable.git"
+    "url": "ssh://git@github.com/w3ctech-editorial-department/cz-customizable.git"
   },
   "author": "Leonardo Correa <w3ctech-editorial-department@gmail.com>",
   "contributors": [
