@@ -1,6 +1,6 @@
 {
   "version": "0.0.0-development",
-  "name": "cz-customizable",
+  "name": "@w3ctech-editorial-department/cz-customizable",
   "description": "Commitizen customizable adapter following the conventional-changelog format.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -14,14 +14,15 @@
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "semantic-release": "semantic-release",
     "fix": "prettier --single-quote --trailing-comma es5 --write '*.js' 'spec/**/*.js' 'util/**/*.js'",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "postversion": "git push && git push --tags"
   },
-  "homepage": "https://github.com/leonardoanalista/cz-customizable",
+  "homepage": "https://github.com/w3ctech-editorial-department/cz-customizable",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leonardoanalista/cz-customizable.git"
+    "url": "git+https://github.com/w3ctech-editorial-department/cz-customizable.git"
   },
-  "author": "Leonardo Correa <leonardoanalista@gmail.com>",
+  "author": "Leonardo Correa <w3ctech-editorial-department@gmail.com>",
   "contributors": [
     "Aleksey Guryanov <gurianov@gmail.com>"
   ],
@@ -65,6 +66,9 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/leonardoanalista/cz-customizable/issues"
+    "url": "https://github.com/w3ctech-editorial-department/cz-customizable/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/w3ctech-editorial-department"
   }
 }
